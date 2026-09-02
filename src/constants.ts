@@ -1,0 +1,15 @@
+export const META_MODULE = Symbol.for('lumen:module');
+export const META_CONTROLLER = Symbol.for('lumen:controller');
+export const META_ROUTES = Symbol.for('lumen:routes');
+export const META_PARAMS = Symbol.for('lumen:params');
+export const META_INJECT = Symbol.for('lumen:inject');
+export const META_GUARDS = Symbol.for('lumen:guards');
+export const META_INTERCEPTORS = Symbol.for('lumen:interceptors');
+export const META_STATUS = Symbol.for('lumen:status');
+export const META_HEADERS = Symbol.for('lumen:headers');
+export const META_SCOPE = Symbol.for('lumen:scope');
+export const META_VERSION = Symbol.for('lumen:version');
+export const META_PIPES = Symbol.for('lumen:pipes');
+export const META_DYNAMIC = Symbol.for('lumen:dynamic');
+export const META_GLOBAL = Symbol.for('lumen:global');
+export const META_MIDDLEWARE = Symbol.for('lumen:middleware');
