@@ -23,7 +23,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@lumen/common": "workspace:*",
+    "@lumen/common": "git+https://github.com/lumen-ts/common.git",
     "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
